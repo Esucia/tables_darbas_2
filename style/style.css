@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+}
+.days {
+    background-color: gray;
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+.number {
+    background-color: gray;
+}
+.lunch {
+    background-color: gray;
+    margin: auto;
+    font-size: smaller;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    text-align: center;
+  
+}
+th 
+{
+  text-align: center;
+}
+
+th span 
+{
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+ 
